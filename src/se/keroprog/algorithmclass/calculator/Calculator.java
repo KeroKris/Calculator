@@ -131,6 +131,7 @@ public class Calculator {
             }catch (NumberFormatException e){
                 // Catching NumberFormatExceptions when trying to convert a String that is not a float.
                 System.out.println("Illegal characters found, try again!");
+                return "";
             }
         }
 
